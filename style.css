@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+
+
+    height: 100vh;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 60px;
+}
+
+.navlogo {
+
+    margin-left: 11px;
+    height: 50px;
+    width: 110px;
+
+}
+
+
+
+.logo {
+    background-image: url("img/amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border {
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    outline: 0;
+    border-radius: 2px;
+    border-color: rgb(255, 255, 255);
+}
+
+.location {
+    margin-left: 2px;
+    height: 50px;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+
+}
+
+.txt {
+
+    margin: 10px 2px;
+    padding: 0 8px 0 6px;
+}
+
+.txt h3 {
+    font-size: 10px;
+    color: rgb(192, 192, 192);
+    font-weight: 100;
+}
+
+.txt span {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.location .material-symbols-outlined {
+    margin-top: 12px;
+
+}
+
+.search {
+    width: 800px;
+    height: 50px;
+    margin: 10px 5px;
+}
+
+.bar {
+    width: 800px;
+
+    display: flex;
+    border-radius: 4px;
+
+    background-color: white;
+}
+
+.bar:hover {
+    border: 1px solid orange;
+}
+
+.bar select {
+    background-color: rgb(236, 236, 236);
+    outline: 0;
+    color: rgb(104, 104, 104);
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+    width: 50px;
+    font-size: 12px;
+    border: 6px solid transparent;
+}
+
+.opt {
+    height: 50px;
+}
+
+.allbar {
+    height: 50px;
+    background-color: rgb(200, 51, 51);
+    width: 60px;
+}
+.searchf {
+    padding-left: 5px;
+    height: 40px;
+    width: 800px;
+    outline: 0;
+    border: 0;
+
+}
+
+.sbtn {
+    background-color: #febd69;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    margin-left: 16px;
+   
+}
+.sign h3{
+    color: rgb(220, 218, 218);
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.sign span {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+.cart{
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.cart h3{
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: #232f3e;
+}
+.menu{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cont ul{
+   
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    height: 40px;
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+}
+.cont ul li{
+    border: 2px solid transparent;
+    padding: 5px;
+}
+.bnav{
+    z-index: 1;
+    height: 64px;
+    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 560px;
+    width: 100%;
+}
+.lis ul{
+    display: flex;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.lis{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #232f3e;
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 40px;
+    color: #5f7794;
+}
+.lis h3{
+    font-size: 12px;
+}
+.lis li:hover{
+    color: #2e4b6d;
+}
+.active{
+    color: #0d608d;
+}
+
+
+
+
+
+
+
+
+  .main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 2%, rgba(225,237,99,1) 100%);
+  }
+  .section1{
+    display: flex;
+    justify-content: center;
+  
+    height: 350px;
+    background-image: url("https://m.media-amazon.com/images/I/61dN5ATmvqL._SX1500_.jpg");
+    background-size:cover;
+
+  }
+  .cardlon{
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 260px;
+  }
+  img{
+    cursor: pointer;
+  }
+  .ihide{
+    opacity: 0;
+  }
+  .hi{
+   opacity: 1;
+  }
